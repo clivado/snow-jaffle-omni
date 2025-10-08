@@ -1,10 +1,10 @@
 ---
 version: 2
 exposures:
-- name: "Test_Dash"
-  label: "Test Dash"
+- name: "My_New_Dashboard"
+  label: "My New Dashboard"
   type: "dashboard"
-  url: "https://clive.omniapp.co/dashboards/3be4da52"
+  url: "https://clive.omniapp.co/dashboards/90a43c1e"
   depends_on:
   - "ref('customers')"
   owner:
