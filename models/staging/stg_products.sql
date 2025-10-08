@@ -2,7 +2,7 @@ with
 
 source as (
 
-    select * from {{ source('dbt_sleon', 'raw_products') }}
+    select * from {{ source('dbt_castbury', 'raw_products') }}
 
 ),
 
